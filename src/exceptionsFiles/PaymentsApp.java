@@ -10,12 +10,9 @@ public class PaymentsApp {
 		
 		// Take payment from user
 					System.out.print("Please insert amount to pay: ");
-					
 					// Get the amount and test the value
-					Scanner in = new Scanner(System.in);
-						
+					Scanner in = new Scanner(System.in);			
 		do {
-			
 			positivePayment = false;
 			// Handle exceptions
 			try {
