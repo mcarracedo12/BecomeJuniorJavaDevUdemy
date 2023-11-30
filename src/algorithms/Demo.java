@@ -1,0 +1,18 @@
+package algorithms;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		int[] numbers = {10, 25, 50, 125, 145, 175, 205, 2015};
+		//int[] sortedNumbers = {10, 25, 50, 125, 145, 175, 205};
+		
+		int pos = algorithms.Search.linearSearch(numbers, 50);
+		System.out.println("Number found at position: " + pos);
+		
+		
+		int binaryPos = algorithms.Search.binarySearch(numbers, 11, 0, numbers.length-1);
+		System.out.println("Number found at position: " + binaryPos + " in the binary tree");
+
+	}
+
+}
